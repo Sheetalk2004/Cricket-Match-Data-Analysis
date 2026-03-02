@@ -32,7 +32,7 @@ plt.bar(df['Player'], df['Runs_Scored'], color='skyblue')
 
 plt.xlabel("Player", fontsize=12)
 plt.ylabel("Runs Scored", fontsize=12)
-plt.title("Player Runs Scored in the Match 🏏", fontsize=16, weight='bold')
+plt.title("Player Runs Scored in the Match ", fontsize=16, weight='bold')
 
 plt.xticks(rotation=45, ha='right')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
